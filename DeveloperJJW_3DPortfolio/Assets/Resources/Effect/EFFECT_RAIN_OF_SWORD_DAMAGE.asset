@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2783c1946c7811848b215f706c33450b, type: 3}
+  m_Name: EFFECT_RAIN_OF_SWORD_DAMAGE
+  m_EditorClassIdentifier: 
+  categories: []
+  icon: {fileID: 0}
+  id: 9
+  codeName: RAIN_OF_SWORD_DAMAGE
+  displayName: 
+  description: 
+  type: 0
+  isAllowDuplicate: 1
+  removeDuplicateTargetOption: 0
+  isShowInUI: 0
+  isPlayerShowInUI: 0
+  isAllowLevelExceedDatas: 0
+  maxLevel: 1
+  effectDatas:
+  - level: 1
+    maxStack: 1
+    stackActions: []
+    action:
+      rid: 6474208328262090769
+    runningFinishOption: 0
+    isApplyAllWhenDurationExpires: 0
+    duration:
+      defaultValue: 0
+      scaleStat: {fileID: 0}
+    applyCount: 1
+    applyCycle: 0
+    customActions:
+    - rid: 7829282583856807937
+  references:
+    version: 2
+    RefIds:
+    - rid: 6474208328262090769
+      type: {class: DealDamageAction, ns: , asm: Assembly-CSharp}
+      data:
+        defaultDamage: 10
+        bonusDamageStat: {fileID: 0}
+        bonusDamageStatFactor: 0
+        bonusDamagePerLevel: 0
+        bonusDamagePerStack: 0
+    - rid: 7829282583856807937
+      type: {class: SoundAction, ns: , asm: Assembly-CSharp}
+      data:
+        methodType: 1
+        audioclip: {fileID: 8300000, guid: ab005f59b5030495b9cbe7ccc9f6a329, type: 3}

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Skill
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: be75af025b2df544b914a18112138874, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 7a6248419aea1384680a6b42f5d1df16: 21300000
+    - e1223c43e85dd8248838c0975b9da8d0: 21300000
+    - 705ef483528497b4b9742e3e1b95dae7: 21300000
+    - 8371ca249fef38b448bb9ea70e0bfc5f: 21300000
+    - fde6dab4eb454af459073bef678bc207: 21300000
+    - c4a1eff5848eb1947bf1d20c1462e018: 21300000
+    - e8938436daa56dd4e9a30fe7b3571d3d: 21300000
+    - 9bd499b75d52b214ea66b02c9933359b: 21300000
+    - 64632558d94745c46a02fc6e76758455: 21300000
+    - de3b35b8f06544f46ab3a7fc7cbe502b: 21300000
+    - 66c9922bc662b7e4a8b69e32d518d793: 21300000
+    - a1c9b07bbec4b09489d46ea214072f80: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7a6248419aea1384680a6b42f5d1df16, type: 3}
+  - {fileID: 21300000, guid: e1223c43e85dd8248838c0975b9da8d0, type: 3}
+  - {fileID: 21300000, guid: 705ef483528497b4b9742e3e1b95dae7, type: 3}
+  - {fileID: 21300000, guid: 8371ca249fef38b448bb9ea70e0bfc5f, type: 3}
+  - {fileID: 21300000, guid: fde6dab4eb454af459073bef678bc207, type: 3}
+  - {fileID: 21300000, guid: c4a1eff5848eb1947bf1d20c1462e018, type: 3}
+  - {fileID: 21300000, guid: e8938436daa56dd4e9a30fe7b3571d3d, type: 3}
+  - {fileID: 21300000, guid: 9bd499b75d52b214ea66b02c9933359b, type: 3}
+  - {fileID: 21300000, guid: 64632558d94745c46a02fc6e76758455, type: 3}
+  - {fileID: 21300000, guid: de3b35b8f06544f46ab3a7fc7cbe502b, type: 3}
+  - {fileID: 21300000, guid: 66c9922bc662b7e4a8b69e32d518d793, type: 3}
+  - {fileID: 21300000, guid: a1c9b07bbec4b09489d46ea214072f80, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - vines-acid-3
+  - runes-orange-2
+  - slice-spirit-3
+  - fog-acid-3
+  - explosion-orange-3
+  - wind-grasp-air-2
+  - haste-sky-3
+  - wind-grasp-sky-1
+  - leaf-acid-3
+  - needles-blue-2
+  - light-magenta-1
+  - air-burst-sky-2
+  m_RenderDataMap: {}
+  m_Tag: Skill
+  m_IsVariant: 0

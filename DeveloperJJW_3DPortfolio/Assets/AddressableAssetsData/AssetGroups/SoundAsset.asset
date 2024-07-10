@@ -1,0 +1,396 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SoundAsset
+  m_EditorClassIdentifier: 
+  m_GroupName: SoundAsset
+  m_Data:
+    m_SerializedData: []
+  m_GUID: dafd9a6d00f472449bd103908fd0cd61
+  m_SerializeEntries:
+  - m_GUID: 6b08ccefe2c8c5e4fb69ec0c3d5d92df
+    m_Address: Sound/BGM/Piano Instrumental 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70b11bf620ea41043a07888402a26e6a
+    m_Address: Sound/BGM/Piano Instrumental 2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8310c03f02828444fbb6c9371417d7a5
+    m_Address: Sound/BGM/Piano Instrumental 3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38c694ef7c0dced4a99f490930a9ef10
+    m_Address: Sound/BGM/Piano Instrumental 4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6afeebf44977acd4590dcb471bfbf928
+    m_Address: Sound/BGM/Piano Instrumental 5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97a3355649e9f1c4faf93f28eb2d3220
+    m_Address: Sound/BGM/Piano Instrumental 6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e7cfefe75c87a74f86741f831476580
+    m_Address: Sound/BGM/Piano Instrumental 7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5b5a86a05a4fa748bcf0f128662fd3a
+    m_Address: Sound/BGM/Piano Instrumental 8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f19e74cad832142c99ce7fdf008daa40
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Water_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc1c11a60c94e439d84d64c56fdd354f
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Dirt_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7bff2a24d7d64eb296a8133060bd3e9
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Dirt_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a06a27039e144e5c853a93d408fd63a
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Dirt_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64049f336db3d403dabd0425eb159922
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Dirt_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1eac1c698fc84605adb7e1074fd7d34
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Dirt_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05a08dd4ee0c046a6b56466d5c9aa9b8
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Dirt_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45a5e778890d448db9da5c7dc4a72a05
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Water_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6872581769a9947e1852589a47dad7aa
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Water_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddc836e71a287472f84ae230e7382010
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Water_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27f4d8a727d874633b0292b089ec9b7c
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Dirt_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f54a7e8aabfc8436b965149db8156132
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Dirt_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa9d74433c06a41a9b25cc9175d3f3ae
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Dirt_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06721a4ba46ae4f75aac68401b0b1bd8
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Water_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c571fcbafd2224c98958747fe04a265f
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Water_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f626dafe2c3e045cd852e86532182f70
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Dirt_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db19e03f19d7f4c8aac6ffbf748d3ccc
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Water_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a132f7ad8ef0645d28a3e3d3a6adee44
+    m_Address: Sound/SFX/Wav/Footsteps/Footstep_Water_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61e73f3e692c640eb9f9c7ee724ac862
+    m_Address: Sound/SFX/Wav/Spell_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab005f59b5030495b9cbe7ccc9f6a329
+    m_Address: Sound/SFX/Wav/Spell_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4a7952ebb861462b92df5cdbb5177e0
+    m_Address: Sound/SFX/Wav/Trap_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f32d44a6bdb854aa5b10a83f60a507ab
+    m_Address: Sound/SFX/Wav/Goblin_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1e15b00e5c084b14b2fee5b2f708e7d
+    m_Address: Sound/SFX/Wav/Goblin_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca056d4afe5e74498a0798f16e0e866d
+    m_Address: Sound/SFX/Wav/Inventory_Open_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cd33786ea8c04c65a99918066a87684
+    m_Address: Sound/SFX/Wav/Pickup_Gold_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6663bacc2a6d846cda16feed5740b544
+    m_Address: Sound/SFX/Wav/Pickup_Gold_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1682be7bc3123409d91a7dcea2cd1f29
+    m_Address: Sound/SFX/Wav/Spell_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85e890e800369403ea5af9b10adecb94
+    m_Address: Sound/SFX/Wav/Trap_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cd0367ce705e426e944079a1e47eb84
+    m_Address: Sound/SFX/Wav/Goblin_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bffc6a78a1534549a1ab2124a23ea39
+    m_Address: Sound/SFX/Wav/Goblin_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6b96b8ff0a354589a034b674322e457
+    m_Address: Sound/SFX/Wav/Pickup_Gold_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e9a429b5c00f4f2e8234fe5835fef69
+    m_Address: Sound/SFX/Wav/Dragon_Growl_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b34a1c3f2d86478f8ece94c4c46c8dd
+    m_Address: Sound/SFX/Wav/Pickup_Gold_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ae32f8e1a94c486c9929faca77ff03b
+    m_Address: Sound/SFX/Wav/Spell_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2135b07382ab043e3a8947ca810d9bfa
+    m_Address: Sound/SFX/Wav/Jingle_Lose_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33b6cd7837c7642958dac012307e9086
+    m_Address: Sound/SFX/Wav/Menu_Select_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f74396619b7154fa5a38a1959cfa67ae
+    m_Address: Sound/SFX/Wav/Ambience_Cave_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0cabce778ad54792bba3a0ca6765417
+    m_Address: Sound/SFX/Wav/Jingle_Achievement_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b1cde0c2a6be405ba097772a687b5ae
+    m_Address: Sound/SFX/Wav/Jingle_Win_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf5d4102f62c644aa91a146267aaf815
+    m_Address: Sound/SFX/Wav/Dragon_Growl_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1689b1b8a5075405f9fcb328f0d532a0
+    m_Address: Sound/SFX/Wav/Trap_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 914a4a2a124d040df96bf13308aadc2e
+    m_Address: Sound/SFX/Wav/Inventory_Open_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a03a8831d95ef44a2b870d4b4850f7d0
+    m_Address: Sound/SFX/Wav/Spell_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e66c05008dfd54b65a39750fb4ca35be
+    m_Address: Sound/SFX/Wav/Pickup_Gold_00
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c118d1cdc5f634c28bfb87ef52703522
+    m_Address: Sound/SFX/Wav/Goblin_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f6f0c13bdf72ea94fa61f9c39b7ad5b7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4b01e2fa92017694faab0603eacd0ca9, type: 2}
+    - {fileID: 11400000, guid: caae3cebf81fbb841bfbf83feaf3864f, type: 2}

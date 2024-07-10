@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SpriteAtlas
+  m_EditorClassIdentifier: 
+  m_GroupName: SpriteAtlas
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4f2b86ec3a8608345893618e5ec53812
+  m_SerializeEntries:
+  - m_GUID: edfb89964336fac42930401743995b73
+    m_Address: SpriteAtlas/UiAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UiAtlas
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b11d6c7c8affa6846bef4358ad1f3a00
+    m_Address: SpriteAtlas/SkillAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SkillAtlas
+    - MainAsset
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f6f0c13bdf72ea94fa61f9c39b7ad5b7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6f6b0be8cc406334aa67da511ba05219, type: 2}
+    - {fileID: 11400000, guid: 32da6339674277041b8b481b7e4ff887, type: 2}

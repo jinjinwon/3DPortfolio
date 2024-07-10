@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf551e424bbb24408a43f48687efe1c, type: 3}
+  m_Name: SKILL_ATTACK
+  m_EditorClassIdentifier: 
+  categories: []
+  icon: {fileID: 21300000, guid: c6066047d69f47e4182f015ac8f5f509, type: 3}
+  id: 11
+  codeName: ATTACK
+  displayName: "\uACF5\uACA9"
+  description: 
+  type: 0
+  useType: 0
+  executionType: 0
+  applyType: 0
+  needSelectionResultType: 0
+  targetSelectionTimingOption: 0
+  targetSearchTimingOption: 0
+  acquisitionConditions: []
+  acquisitionCosts: []
+  useConditions:
+  - rid: 6474208461735067649
+  isAllowLevelExceedDatas: 0
+  maxLevel: 1
+  defaultLevel: 1
+  skillDatas:
+  - level: 1
+    levelUpConditions: []
+    levelUpCosts: []
+    precedingAction:
+      rid: -2
+    action:
+      rid: 6474208461735067650
+    runningFinishOption: 0
+    duration: 0
+    startPosition: {x: 0, y: 0, z: 0}
+    distance: 0
+    applyCount: 0
+    applyCycle: 1
+    cooldown:
+      defaultValue: 0
+      scaleStat: {fileID: 0}
+    targetSearcher:
+      selectionAction:
+        rid: 6474208461735067654
+      searchAction:
+        rid: 6474208461735067651
+    costs: []
+    isUseCast: 0
+    castTime:
+      defaultValue: 0
+      scaleStat: {fileID: 0}
+    isUseCharge: 0
+    chargeFinishActionOption: 0
+    chargeDuration: 0
+    chargeTime: 0
+    needChargeTimeToUse: 0
+    startChargePower: 0
+    effectSelectors:
+    - level: 1
+      effect: {fileID: 11400000, guid: 106a0faa6a4e1e147bcdcc1a9a618dc6, type: 2}
+    inSkillActionFinishOption: 2
+    castAnimatorParamter:
+      type: 0
+      name: 
+    chargeAnimatorParameter:
+      type: 0
+      name: 
+    precedingActionAnimatorParameter:
+      type: 0
+      name: 
+    actionAnimatorParameter:
+      type: 1
+      name: upHandCast
+    customActionsOnCast: []
+    customActionsOnCharge: []
+    customActionsOnPrecedingAction: []
+    customActionsOnAction:
+    - rid: 6474208461735067653
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 6474208461735067649
+      type: {class: IsEntityReadyCondition, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 6474208461735067650
+      type: {class: InstantApplyAction, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 6474208461735067651
+      type: {class: SelectedTarget, ns: , asm: Assembly-CSharp}
+      data:
+        isShowIndicatorPlayerOnly: 0
+        indicatorViewAction:
+          rid: -2
+        isUseScale: 0
+    - rid: 6474208461735067653
+      type: {class: SpawnObjectAction, ns: , asm: Assembly-CSharp}
+      data:
+        targetType: 1
+        methodType: 0
+        prefab: {fileID: 3623001481670749646, guid: d6b8467903f950b4cb61397e0a5575e2,
+          type: 3}
+        offset: {x: 0, y: 0, z: 0}
+        scaleFactor: {x: 1, y: 1, z: 1}
+        isAttachToTarget: 1
+        isDestroyOnRelease: 1
+    - rid: 6474208461735067654
+      type: {class: SelectEntity, ns: , asm: Assembly-CSharp}
+      data:
+        isShowIndicatorPlayerOnly: 1
+        indicatorViewAction:
+          rid: 6474208461735067655
+        isUseScale: 0
+        range: 5
+        angle: 360
+        isIncludeSelf: 0
+        isSelectSameCategory: 0
+    - rid: 6474208461735067655
+      type: {class: CircleIndicatorViewAction, ns: , asm: Assembly-CSharp}
+      data:
+        indicatorPrefab: {fileID: 7545020625849464054, guid: 4d4c20843142cbd44b9175e36d6ed4c1,
+          type: 3}
+        indicatorRadiusOverride: 0
+        indicatorAngleOverride: 0
+        isUseIndicatorFillAmount: 0
+        isAttachIndicatorToRequester: 1

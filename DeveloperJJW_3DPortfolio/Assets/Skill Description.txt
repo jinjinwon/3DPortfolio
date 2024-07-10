@@ -1,0 +1,32 @@
+ROLLING
+캐릭터가 바라보고 있는 전방으로 <color=blue>$[precedingAction.distance]m</color>만큼 구른 뒤, <color=green>$[effectAction.totalValue.0]</color>만큼 회복합니다.
+
+BLESSING_OF_WIND
+바람의 축복을 받아 이동 속도를 $[effectAction.totalValue.0] 증가시킵니다.
+
+HEAL
+자연의 힘으로 부상을 치료하여 HP를 <color=green>$[effectAction.totalValue.0]</color>만큼 회복하고, <color=purple>중독</color>을 제거합니다.
+
+EXPLOSION
+$[targetSearcher.searchAction.range] 범위 안의 적들에게 <color=red>$[effectAction.totalDamage.0]</color>만큼  피해를 주고, $[duration.1]초 동안 <color="purple">기절</color> 상태로 만듭니다. 발동을 위해선 $[chargeTime]초 동안 충전해야하며, 최대 $[chargeDuration]초동안 충전이 지속됩니다. 사용하지 않으면 발동이 취소됩니다.
+
+DARK_BALL
+전방으로 어두운 구체를 날려 맞은 대상에게 <color=red>$[effectAction.totalDamage.0]</color>만큼 피해를 주고 $[duration.1]초 동안 <color=purple>수면</color> 상태로 만듭니다.
+
+POISON_SWAMP
+바닥에 독 늪을 $[skillAction.duration]초 동안 소환하여 범위 안에 있는 적에게 <color=purple>중독</color> 상태를 일으킵니다.
+
+RAIN_OF_SWORD
+범위 안에 있는 적에게 주기적으로 <color=red>$[effectAction.totalDamage.0]</color>만큼 피해를 주는 검우를 $[skillAction.duration]초 동안 소환합니다.
+
+WIND_CUTTER
+대상의 주위에 바람의 칼날을 일으켜 $[applyCycle.0]초마다 <color=red>$[effectAction.totalDamage.0]</color>의 피해를 총 $[applyCount.0]번 줍니다.
+
+LAND_OF_FIRE
+주변을 불태워 $[applyCycle]초마다 <color=red>$[effectAction.totalDamage.0]</color> 피해를 줍니다.
+
+인디케이터 문제
+인디케이터는 360도가 아닌 이상에는 자신의 앞 기준으로 계산되어야 함      => Attach 옵션 키기
+인디케이터는 사용자의 마우스 입력, 터치 입력에 따라 방향이 바뀌어야 함   => angle값 360이 아니도록
+사각형 인디케이터는 자체를 다시 구현해야 함 => 일단 보류 ㅇㅇ...
+인디케이터가 설정한 범위를 넘어서면 오브젝트가 없어지게끔 구현 (옵션으로 설정하게끔) => Action으로 설정 가능하게끔 추가
