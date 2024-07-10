@@ -32,8 +32,6 @@ public class PoolManager : MonoSingleton<PoolManager>
 
     private void Start()
     {
-        //ObjectPool.CreatePool(monsterPrefab, monsterMaxSize);
-        //ObjectPool.CreatePool(playerPrefab, playerMaxSize);
         ObjectPool.CreatePool(HitPrefab, HitEffectMaxSize);
         ObjectPool.CreatePool(MonsterHUDPrefab, MonsterHUDMaxSize);
     }

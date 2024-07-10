@@ -312,6 +312,7 @@
     <None Include="Assets\Packages\System.CodeDom.7.0.0\lib\netstandard2.0\System.CodeDom.xml" />
     <None Include="Assets\Effects\Original\YOS\YOS PATREON\MAGIC BULLET\SHADER\trail bull2.shader" />
     <None Include="Assets\Packages\Google.Apis.Drive.v3.1.68.0.3416\lib\net462\Google.Apis.Drive.v3.dll" />
+    <None Include="Assets\AddressableAssetsData\link.xml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Effects\Original\YOS\YOS-URP\SHADER\PARTICLE 3.shader" />
     <None Include="Assets\Effects\Original\YOS\YOS-URP\SHADER\sphere2.shader" />

@@ -2,40 +2,40 @@
     "m_SelectedDeviceId": "emulator-5554",
     "m_SelectedProcess": {
         "deviceId": "emulator-5554",
-        "name": "com.DefaultCompany.DeveloperG_SkillSystem",
-        "processId": 3667,
+        "name": "com.DefaultCompany.DeveloperJJW_3DPortfolio",
+        "processId": 5321,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownProcessesForSerialization": [
         {
             "deviceId": "emulator-5554",
-            "name": "com.ldmnq.launcher3",
-            "processId": 2250,
+            "name": "com.DefaultCompany.JJW_3DPortfolio",
+            "processId": 4053,
             "exited": true
         },
         {
             "deviceId": "emulator-5554",
-            "name": "com.DefaultCompany.DeveloperG_SkillSystem",
-            "processId": 3452,
+            "name": "com.DefaultCompany.JJW_3DPortfolio",
+            "processId": 3697,
             "exited": true
         },
         {
             "deviceId": "emulator-5554",
-            "name": "com.ldmnq.launcher3",
-            "processId": 2276,
+            "name": "com.DefaultCompany.JJW_3DPortfolio",
+            "processId": 4919,
             "exited": true
         },
         {
             "deviceId": "emulator-5554",
-            "name": "com.DefaultCompany.DeveloperG_SkillSystem",
-            "processId": 3678,
+            "name": "com.DefaultCompany.DeveloperJJW_3DPortfolio",
+            "processId": 5118,
             "exited": true
         },
         {
             "deviceId": "emulator-5554",
-            "name": "com.DefaultCompany.DeveloperG_SkillSystem",
-            "processId": 3667,
+            "name": "com.DefaultCompany.DeveloperJJW_3DPortfolio",
+            "processId": 5321,
             "exited": false
         }
     ],
